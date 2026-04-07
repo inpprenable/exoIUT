@@ -1,0 +1,10 @@
+[project]
+name = "exoiut"
+version = "0.1.0"
+description = "Concurrent sorting challenge: students implement sorting algorithms in a shared file, evaluated on correctness, execution time, and number of comparisons under randomized and adversarial test cases."
+requires-python = ">=3.9"
+
+[dependency-groups]
+dev = [
+    "pyrefly>=0.60.0",
+]
