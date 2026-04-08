@@ -1,13 +1,12 @@
 services:
   jupyter:
-    image: jupyter/base-notebook
+    build: .
     volumes:
       - ./project:/home/jovyan/template:ro
     ports:
       - "8888:8888"
     command: >
       bash -c "
-      pip install jupyter_collaboration &&
       cp -rn /home/jovyan/template/* /home/jovyan/work/ &&
       start-notebook.sh --NotebookApp.token='' --LabApp.collaborative=True
       "
