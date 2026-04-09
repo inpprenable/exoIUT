@@ -32,4 +32,3 @@ SOLUTIONS = [
 if __name__ == "__main__":
     for name, func in SOLUTIONS:
         evaluate(func, name)
-
