@@ -24,8 +24,11 @@ def fonction_idrys(arr: list[int]) -> list[int]:
                 nouvelle_liste[j + 1] = temp
     return nouvelle_liste
 
+def trie_mathieu(arr_m: list[int]) -> list[int]:
+	return sorted(arr_m)
+
 SOLUTIONS = [
-    ("example", example_sort),("thomas", thomas_sort)
+    ("example", example_sort),("thomas", thomas_sort),("mathieu", trie_mathieu)
 ]
 
 
