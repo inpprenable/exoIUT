@@ -31,7 +31,8 @@ def tri_lucas(arr_lucas: list[int]) -> list[int]:
     return sorted(arr_lucas)
 
 SOLUTIONS = [
-    ("example", example_sort),("thomas", thomas_sort),("mathieu", trie_mathieu),("lucas", tri_lucas)
+    ("example", example_sort),("thomas", thomas_sort),("mathieu", trie_mathieu),("lucas", tri_lucas),
+    ("idrys", fonction_idrys)
 ]
 
 
